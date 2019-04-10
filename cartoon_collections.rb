@@ -20,6 +20,6 @@ def find_the_cheese(cheese_types)
 end
 
 def find_the_cheese(cheese_types)
-  cheese_types.include? do |word| 
+  if cheese_types.include?
     
   
