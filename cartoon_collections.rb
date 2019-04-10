@@ -20,9 +20,6 @@ def find_the_cheese(cheese_types)
 end
 
 def find_the_cheese(cheese_types)
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.any? do |word| 
+  cheese_types.include? do |word| 
     
-    end 
-words.any? do |word|
-  word.length > 4
+  
